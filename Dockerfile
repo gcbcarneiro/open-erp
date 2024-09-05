@@ -1,4 +1,4 @@
-FROM ruby:3.3.4
+FROM ruby:3.2.3
 
 LABEL maintainer="gilcierweb@gmail.com"
 
