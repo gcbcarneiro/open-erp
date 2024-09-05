@@ -25,7 +25,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash - &&\
 
 RUN npm install --global yarn
 
-RUN yarn install --check-files
+#RUN yarn install --check-files
 
 COPY . ./ 
 
